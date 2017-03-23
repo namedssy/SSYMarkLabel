@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38FE4C801E83B42F00E7EE38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE4C7F1E83B42F00E7EE38 /* main.m */; };
+		38FE4C831E83B42F00E7EE38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE4C821E83B42F00E7EE38 /* AppDelegate.m */; };
+		38FE4C861E83B42F00E7EE38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE4C851E83B42F00E7EE38 /* ViewController.m */; };
+		38FE4C891E83B42F00E7EE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FE4C871E83B42F00E7EE38 /* Main.storyboard */; };
+		38FE4C8B1E83B42F00E7EE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FE4C8A1E83B42F00E7EE38 /* Assets.xcassets */; };
+		38FE4C8E1E83B42F00E7EE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FE4C8C1E83B42F00E7EE38 /* LaunchScreen.storyboard */; };
+		38FE4C991E83B42F00E7EE38 /* SSYMarkLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE4C981E83B42F00E7EE38 /* SSYMarkLabelTests.m */; };
+		38FE4CA41E83B42F00E7EE38 /* SSYMarkLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE4CA31E83B42F00E7EE38 /* SSYMarkLabelUITests.m */; };
+		38FE4CB31E83B47E00E7EE38 /* SSYProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE4CB21E83B47E00E7EE38 /* SSYProgressLabel.m */; };
+		38FE4CB61E83C6FB00E7EE38 /* SSYDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FE4CB51E83C6FB00E7EE38 /* SSYDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38FE4C951E83B42F00E7EE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FE4C731E83B42F00E7EE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FE4C7A1E83B42F00E7EE38;
+			remoteInfo = SSYMarkLabel;
+		};
+		38FE4CA01E83B42F00E7EE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FE4C731E83B42F00E7EE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FE4C7A1E83B42F00E7EE38;
+			remoteInfo = SSYMarkLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38FE4C7B1E83B42F00E7EE38 /* SSYMarkLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSYMarkLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FE4C7F1E83B42F00E7EE38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38FE4C811E83B42F00E7EE38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38FE4C821E83B42F00E7EE38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38FE4C841E83B42F00E7EE38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38FE4C851E83B42F00E7EE38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38FE4C881E83B42F00E7EE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38FE4C8A1E83B42F00E7EE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38FE4C8D1E83B42F00E7EE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38FE4C8F1E83B42F00E7EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FE4C941E83B42F00E7EE38 /* SSYMarkLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSYMarkLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FE4C981E83B42F00E7EE38 /* SSYMarkLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSYMarkLabelTests.m; sourceTree = "<group>"; };
+		38FE4C9A1E83B42F00E7EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FE4C9F1E83B42F00E7EE38 /* SSYMarkLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSYMarkLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FE4CA31E83B42F00E7EE38 /* SSYMarkLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSYMarkLabelUITests.m; sourceTree = "<group>"; };
+		38FE4CA51E83B42F00E7EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FE4CB11E83B47E00E7EE38 /* SSYProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSYProgressLabel.h; sourceTree = "<group>"; };
+		38FE4CB21E83B47E00E7EE38 /* SSYProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSYProgressLabel.m; sourceTree = "<group>"; };
+		38FE4CB41E83C6FA00E7EE38 /* SSYDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSYDemoViewController.h; sourceTree = "<group>"; };
+		38FE4CB51E83C6FB00E7EE38 /* SSYDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSYDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38FE4C781E83B42F00E7EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FE4C911E83B42F00E7EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FE4C9C1E83B42F00E7EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38FE4C721E83B42F00E7EE38 = {
+			isa = PBXGroup;
+			children = (
+				38FE4C7D1E83B42F00E7EE38 /* SSYMarkLabel */,
+				38FE4C971E83B42F00E7EE38 /* SSYMarkLabelTests */,
+				38FE4CA21E83B42F00E7EE38 /* SSYMarkLabelUITests */,
+				38FE4C7C1E83B42F00E7EE38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38FE4C7C1E83B42F00E7EE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38FE4C7B1E83B42F00E7EE38 /* SSYMarkLabel.app */,
+				38FE4C941E83B42F00E7EE38 /* SSYMarkLabelTests.xctest */,
+				38FE4C9F1E83B42F00E7EE38 /* SSYMarkLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38FE4C7D1E83B42F00E7EE38 /* SSYMarkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				38FE4C811E83B42F00E7EE38 /* AppDelegate.h */,
+				38FE4C821E83B42F00E7EE38 /* AppDelegate.m */,
+				38FE4C841E83B42F00E7EE38 /* ViewController.h */,
+				38FE4C851E83B42F00E7EE38 /* ViewController.m */,
+				38FE4CB41E83C6FA00E7EE38 /* SSYDemoViewController.h */,
+				38FE4CB51E83C6FB00E7EE38 /* SSYDemoViewController.m */,
+				38FE4CB11E83B47E00E7EE38 /* SSYProgressLabel.h */,
+				38FE4CB21E83B47E00E7EE38 /* SSYProgressLabel.m */,
+				38FE4C871E83B42F00E7EE38 /* Main.storyboard */,
+				38FE4C8A1E83B42F00E7EE38 /* Assets.xcassets */,
+				38FE4C8C1E83B42F00E7EE38 /* LaunchScreen.storyboard */,
+				38FE4C8F1E83B42F00E7EE38 /* Info.plist */,
+				38FE4C7E1E83B42F00E7EE38 /* Supporting Files */,
+			);
+			path = SSYMarkLabel;
+			sourceTree = "<group>";
+		};
+		38FE4C7E1E83B42F00E7EE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38FE4C7F1E83B42F00E7EE38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38FE4C971E83B42F00E7EE38 /* SSYMarkLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				38FE4C981E83B42F00E7EE38 /* SSYMarkLabelTests.m */,
+				38FE4C9A1E83B42F00E7EE38 /* Info.plist */,
+			);
+			path = SSYMarkLabelTests;
+			sourceTree = "<group>";
+		};
+		38FE4CA21E83B42F00E7EE38 /* SSYMarkLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38FE4CA31E83B42F00E7EE38 /* SSYMarkLabelUITests.m */,
+				38FE4CA51E83B42F00E7EE38 /* Info.plist */,
+			);
+			path = SSYMarkLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38FE4C7A1E83B42F00E7EE38 /* SSYMarkLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FE4CA81E83B42F00E7EE38 /* Build configuration list for PBXNativeTarget "SSYMarkLabel" */;
+			buildPhases = (
+				38FE4C771E83B42F00E7EE38 /* Sources */,
+				38FE4C781E83B42F00E7EE38 /* Frameworks */,
+				38FE4C791E83B42F00E7EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSYMarkLabel;
+			productName = SSYMarkLabel;
+			productReference = 38FE4C7B1E83B42F00E7EE38 /* SSYMarkLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38FE4C931E83B42F00E7EE38 /* SSYMarkLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FE4CAB1E83B42F00E7EE38 /* Build configuration list for PBXNativeTarget "SSYMarkLabelTests" */;
+			buildPhases = (
+				38FE4C901E83B42F00E7EE38 /* Sources */,
+				38FE4C911E83B42F00E7EE38 /* Frameworks */,
+				38FE4C921E83B42F00E7EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FE4C961E83B42F00E7EE38 /* PBXTargetDependency */,
+			);
+			name = SSYMarkLabelTests;
+			productName = SSYMarkLabelTests;
+			productReference = 38FE4C941E83B42F00E7EE38 /* SSYMarkLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38FE4C9E1E83B42F00E7EE38 /* SSYMarkLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FE4CAE1E83B42F00E7EE38 /* Build configuration list for PBXNativeTarget "SSYMarkLabelUITests" */;
+			buildPhases = (
+				38FE4C9B1E83B42F00E7EE38 /* Sources */,
+				38FE4C9C1E83B42F00E7EE38 /* Frameworks */,
+				38FE4C9D1E83B42F00E7EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FE4CA11E83B42F00E7EE38 /* PBXTargetDependency */,
+			);
+			name = SSYMarkLabelUITests;
+			productName = SSYMarkLabelUITests;
+			productReference = 38FE4C9F1E83B42F00E7EE38 /* SSYMarkLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38FE4C731E83B42F00E7EE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = punch;
+				TargetAttributes = {
+					38FE4C7A1E83B42F00E7EE38 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5V3Q8567GQ;
+						ProvisioningStyle = Automatic;
+					};
+					38FE4C931E83B42F00E7EE38 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UX2YB6D32S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38FE4C7A1E83B42F00E7EE38;
+					};
+					38FE4C9E1E83B42F00E7EE38 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UX2YB6D32S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38FE4C7A1E83B42F00E7EE38;
+					};
+				};
+			};
+			buildConfigurationList = 38FE4C761E83B42F00E7EE38 /* Build configuration list for PBXProject "SSYMarkLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38FE4C721E83B42F00E7EE38;
+			productRefGroup = 38FE4C7C1E83B42F00E7EE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38FE4C7A1E83B42F00E7EE38 /* SSYMarkLabel */,
+				38FE4C931E83B42F00E7EE38 /* SSYMarkLabelTests */,
+				38FE4C9E1E83B42F00E7EE38 /* SSYMarkLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38FE4C791E83B42F00E7EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FE4C8E1E83B42F00E7EE38 /* LaunchScreen.storyboard in Resources */,
+				38FE4C8B1E83B42F00E7EE38 /* Assets.xcassets in Resources */,
+				38FE4C891E83B42F00E7EE38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FE4C921E83B42F00E7EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FE4C9D1E83B42F00E7EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38FE4C771E83B42F00E7EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FE4C861E83B42F00E7EE38 /* ViewController.m in Sources */,
+				38FE4CB31E83B47E00E7EE38 /* SSYProgressLabel.m in Sources */,
+				38FE4C831E83B42F00E7EE38 /* AppDelegate.m in Sources */,
+				38FE4CB61E83C6FB00E7EE38 /* SSYDemoViewController.m in Sources */,
+				38FE4C801E83B42F00E7EE38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FE4C901E83B42F00E7EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FE4C991E83B42F00E7EE38 /* SSYMarkLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FE4C9B1E83B42F00E7EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FE4CA41E83B42F00E7EE38 /* SSYMarkLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38FE4C961E83B42F00E7EE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FE4C7A1E83B42F00E7EE38 /* SSYMarkLabel */;
+			targetProxy = 38FE4C951E83B42F00E7EE38 /* PBXContainerItemProxy */;
+		};
+		38FE4CA11E83B42F00E7EE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FE4C7A1E83B42F00E7EE38 /* SSYMarkLabel */;
+			targetProxy = 38FE4CA01E83B42F00E7EE38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38FE4C871E83B42F00E7EE38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38FE4C881E83B42F00E7EE38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38FE4C8C1E83B42F00E7EE38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38FE4C8D1E83B42F00E7EE38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38FE4CA61E83B42F00E7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38FE4CA71E83B42F00E7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38FE4CA91E83B42F00E7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V3Q8567GQ;
+				INFOPLIST_FILE = SSYMarkLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LanZhouYiWanMian.SSYMarkLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38FE4CAA1E83B42F00E7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V3Q8567GQ;
+				INFOPLIST_FILE = SSYMarkLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LanZhouYiWanMian.SSYMarkLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38FE4CAC1E83B42F00E7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UX2YB6D32S;
+				INFOPLIST_FILE = SSYMarkLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LanZhouYiWanMian.SSYMarkLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSYMarkLabel.app/SSYMarkLabel";
+			};
+			name = Debug;
+		};
+		38FE4CAD1E83B42F00E7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UX2YB6D32S;
+				INFOPLIST_FILE = SSYMarkLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LanZhouYiWanMian.SSYMarkLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSYMarkLabel.app/SSYMarkLabel";
+			};
+			name = Release;
+		};
+		38FE4CAF1E83B42F00E7EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UX2YB6D32S;
+				INFOPLIST_FILE = SSYMarkLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LanZhouYiWanMian.SSYMarkLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSYMarkLabel;
+			};
+			name = Debug;
+		};
+		38FE4CB01E83B42F00E7EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UX2YB6D32S;
+				INFOPLIST_FILE = SSYMarkLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LanZhouYiWanMian.SSYMarkLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSYMarkLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38FE4C761E83B42F00E7EE38 /* Build configuration list for PBXProject "SSYMarkLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FE4CA61E83B42F00E7EE38 /* Debug */,
+				38FE4CA71E83B42F00E7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FE4CA81E83B42F00E7EE38 /* Build configuration list for PBXNativeTarget "SSYMarkLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FE4CA91E83B42F00E7EE38 /* Debug */,
+				38FE4CAA1E83B42F00E7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38FE4CAB1E83B42F00E7EE38 /* Build configuration list for PBXNativeTarget "SSYMarkLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FE4CAC1E83B42F00E7EE38 /* Debug */,
+				38FE4CAD1E83B42F00E7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38FE4CAE1E83B42F00E7EE38 /* Build configuration list for PBXNativeTarget "SSYMarkLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FE4CAF1E83B42F00E7EE38 /* Debug */,
+				38FE4CB01E83B42F00E7EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38FE4C731E83B42F00E7EE38 /* Project object */;
+}
